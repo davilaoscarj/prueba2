@@ -1,0 +1,61 @@
+.tercera{
+    background-image: url('../img/bg-price.svg');
+    width: 100%;
+    margin: auto;
+    height: 980px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size:cover; 
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.lista{
+    text-align: left;
+}
+
+.price{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.flex{
+    height: 700px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    padding: 100px;
+}
+
+.precios{
+    color: white;
+    text-align: center;
+    width: 90%;
+    order: -1;
+    flex: 1 0 100%;
+    margin:40px;
+}
+
+
+@media only screen and(max-width: 1129px){
+
+    .precios{
+        padding:10px;
+    }
+   .tercera{
+       height: 1500px;
+   }
+
+   .flex{
+       height: 1500px;
+   }
+   
+   .card{
+       height: 500px;
+   }
+   
+}
+

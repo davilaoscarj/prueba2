@@ -1,0 +1,49 @@
+
+#grafico{
+    animation: grafico 4s infinite;
+    margin-left:auto ;
+    margin-right: auto;
+    grid-column-start: 6;
+    width: 450px;
+    
+  }
+  
+.estadistica{
+    text-align: center;
+}
+
+.pp{
+    padding: 50px;
+}
+
+@media only screen and(max-width: 600px){
+    .secundario{
+        flex-direction: column;
+    }
+   
+.estadistica{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.estadistica p {
+    padding: 10px;
+}
+
+.flex{
+    margin: 0;
+}
+
+}
+
+.caracteristicas{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  
+  

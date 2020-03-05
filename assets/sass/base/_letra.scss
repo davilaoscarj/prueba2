@@ -1,0 +1,30 @@
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 100%;
+}
+
+.link{
+    text-decoration:none;
+    color: white;
+    
+}
+
+.trekk{
+    padding-top: 10px;
+}
+
+p{
+    font-size: 26px;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+@media only screen and(max-width: 700px){
+
+    p{
+        font-size: 16px;
+    }
+}

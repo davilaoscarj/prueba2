@@ -1,0 +1,35 @@
+.contenedor {
+  width:100%;
+  margin:auto;
+  background-image: url('../img/bg-hero.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 950px;
+  background-position:left;
+}
+
+
+.noticia{
+  padding: 4rem;
+  padding-bottom: 0px;
+}
+
+
+@media only screen and(max-width: 600px){
+
+  .contenedor{
+    height: 500px;
+  }
+  .noticia{
+    padding: 0 0 0 1.5rem;
+  }
+  
+  #grafico{
+    padding: 20px;
+  }
+
+  .precios{
+    padding:105px;
+}
+
+}
